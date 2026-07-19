@@ -1,5 +1,5 @@
-🚀 AIgnition – AI-Powered Marketing Forecasting Platform
-📌 Problem Statement
+**🚀 AIgnition** – AI-Powered Marketing Forecasting Platform
+**📌 Problem Statement**
 
 Marketing teams invest heavily across multiple advertising platforms such as Google Ads, Meta Ads, Microsoft Ads, Shopify, and GA4. However, campaign data is scattered across different sources, making it difficult to:
 
@@ -10,7 +10,7 @@ Make proactive decisions instead of relying only on historical reports.
 
 Businesses need an intelligent solution that can transform raw marketing data into predictive insights for smarter decision-making.
 
-💡 Our Solution
+**💡 Our Solution**
 
 AIgnition is an AI-powered marketing analytics platform that converts marketing campaign data into actionable business insights.
 
@@ -25,7 +25,8 @@ Delivers confidence-based predictions to support data-driven marketing decisions
 
 By combining data preprocessing, feature engineering, and machine learning, AIgnition enables marketers to move from reactive reporting to predictive marketing intelligence.
 
-✨ Key Features
+**✨ Key Features**
+
 📤 Upload marketing campaign CSVs.
 🤖 AI-powered revenue forecasting.
 📈 ROAS prediction.
@@ -33,7 +34,8 @@ By combining data preprocessing, feature engineering, and machine learning, AIgn
 🌐 Channel-wise performance comparison.
 📉 Confidence-based forecasting (P10, P50, P90).
 ⚡ Fast REST API with interactive Swagger documentation.
-🧠 Machine Learning
+
+**🧠 Machine Learning**
 
 Our forecasting engine is built using a CatBoost Regressor, trained on marketing campaign data.
 
@@ -52,7 +54,8 @@ Weekend Indicator
 
 These engineered features help improve prediction accuracy and generate meaningful marketing insights.
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
+
 Frontend
 React.js
 Vite
@@ -70,7 +73,8 @@ Scikit-learn
 Tools
 Swagger UI
 Git & GitHub
-🎯 Outcome
+
+**🎯 Outcome**
 
 AIgnition empowers marketers to:
 
