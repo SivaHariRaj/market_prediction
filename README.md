@@ -1,4 +1,5 @@
 **🚀 AIgnition** – AI-Powered Marketing Forecasting Platform
+
 **📌 Problem Statement**
 
 Marketing teams invest heavily across multiple advertising platforms such as Google Ads, Meta Ads, Microsoft Ads, Shopify, and GA4. However, campaign data is scattered across different sources, making it difficult to:
