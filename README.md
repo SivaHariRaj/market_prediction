@@ -1,86 +1,117 @@
-**🚀 AIgnition** – AI-Powered Marketing Forecasting Platform
+# 🚀 AIgnition – AI-Powered Marketing Forecasting Platform
 
-**📌 Problem Statement**
+AIgnition is an AI-powered marketing analytics platform that helps businesses transform raw marketing campaign data into predictive insights. By leveraging Machine Learning, the platform forecasts revenue, estimates Return on Ad Spend (ROAS), and analyzes campaign and channel performance, enabling marketers to make smarter, data-driven decisions.
 
-Marketing teams invest heavily across multiple advertising platforms such as Google Ads, Meta Ads, Microsoft Ads, Shopify, and GA4. However, campaign data is scattered across different sources, making it difficult to:
+---
 
-Predict future revenue and ROAS.
-Identify high-performing campaigns and channels.
-Optimize marketing budgets based on data.
-Make proactive decisions instead of relying only on historical reports.
+# 📌 Problem Statement
 
-Businesses need an intelligent solution that can transform raw marketing data into predictive insights for smarter decision-making.
+Modern businesses advertise across multiple platforms such as **Google Ads, Meta Ads, Microsoft Ads, Shopify, and GA4**. While these platforms generate valuable data, marketers often struggle to:
 
-**💡 Our Solution**
+- Consolidate campaign data from multiple sources.
+- Predict future revenue and campaign performance.
+- Estimate Return on Ad Spend (ROAS).
+- Identify the best-performing campaigns and marketing channels.
+- Optimize marketing budgets before launching campaigns.
 
-AIgnition is an AI-powered marketing analytics platform that converts marketing campaign data into actionable business insights.
+Traditional dashboards focus on historical reporting rather than predicting future outcomes. This makes strategic decision-making difficult and often leads to inefficient budget allocation.
 
-Users simply upload their marketing CSV files, and AIgnition automatically:
+---
 
-Detects and processes marketing data.
-Cleans and engineers meaningful features.
-Uses a Machine Learning model to forecast future revenue.
-Predicts Return on Ad Spend (ROAS).
-Provides campaign-wise and channel-wise performance forecasts.
-Delivers confidence-based predictions to support data-driven marketing decisions.
+# 💡 Our Solution
 
-By combining data preprocessing, feature engineering, and machine learning, AIgnition enables marketers to move from reactive reporting to predictive marketing intelligence.
+AIgnition addresses these challenges by providing an end-to-end AI-powered forecasting platform.
 
-**✨ Key Features**
+The workflow is simple:
 
-📤 Upload marketing campaign CSVs.
-🤖 AI-powered revenue forecasting.
-📈 ROAS prediction.
-📊 Campaign-wise performance analysis.
-🌐 Channel-wise performance comparison.
-📉 Confidence-based forecasting (P10, P50, P90).
-⚡ Fast REST API with interactive Swagger documentation.
+1. Upload a marketing campaign CSV.
+2. Automatically detect and process the uploaded data.
+3. Clean and preprocess the dataset.
+4. Generate advanced marketing features through feature engineering.
+5. Use a trained CatBoost Machine Learning model to forecast future revenue.
+6. Predict future ROAS.
+7. Analyze campaign-wise and channel-wise performance.
+8. Present actionable insights through an interactive dashboard.
 
-**🧠 Machine Learning**
+By combining intelligent preprocessing with machine learning, AIgnition enables marketers to move beyond descriptive analytics and make proactive, data-driven marketing decisions.
 
-Our forecasting engine is built using a CatBoost Regressor, trained on marketing campaign data.
+---
 
-Feature Engineering
-Budget Utilization
-Click Through Rate (CTR)
-Cost Per Click (CPC)
-Cost Per Mille (CPM)
-Conversion Rate
-Year
-Month
-Day
-Week of Year
-Quarter
-Weekend Indicator
+# ✨ Key Features
 
-These engineered features help improve prediction accuracy and generate meaningful marketing insights.
+- 📤 Upload marketing campaign CSV files.
+- 🤖 AI-powered revenue forecasting.
+- 📈 ROAS prediction.
+- 📊 Campaign-wise performance analysis.
+- 🌐 Channel-wise performance comparison.
+- 📉 Confidence-based forecasting (P10, P50, P90).
+- ⚡ Fast REST API powered by FastAPI.
+- 📚 Interactive API documentation using Swagger.
 
-**🛠️ Tech Stack**
+---
 
-Frontend
-React.js
-Vite
-Tailwind CSS
-Recharts
-Backend
-FastAPI
-Uvicorn
-Pydantic
-Machine Learning
-CatBoost
-Pandas
-NumPy
-Scikit-learn
-Tools
-Swagger UI
-Git & GitHub
+# 🧠 Machine Learning Pipeline
 
-**🎯 Outcome**
+The forecasting engine is built using a **CatBoost Regressor** trained on marketing campaign datasets.
 
-AIgnition empowers marketers to:
+### Feature Engineering
 
-Forecast future campaign revenue.
-Estimate future ROAS.
-Compare campaign and channel performance.
-Make informed budget allocation decisions.
-Reduce manual analysis with AI-driven predictions.
+The following features are generated before prediction:
+
+- Budget Utilization
+- Click Through Rate (CTR)
+- Cost Per Click (CPC)
+- Cost Per Mille (CPM)
+- Conversion Rate
+- Year
+- Month
+- Day
+- Day of Week
+- Week of Year
+- Quarter
+- Weekend Indicator
+
+These engineered features significantly improve prediction quality and allow the model to better capture campaign performance patterns.
+
+---
+
+# 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- Recharts
+
+### Backend
+- FastAPI
+- Uvicorn
+- Pydantic
+
+### Machine Learning
+- CatBoost
+- Pandas
+- NumPy
+- Scikit-learn
+
+### Development Tools
+- Git
+- GitHub
+- Swagger UI
+
+---
+
+# 🎯 Expected Outcome
+
+AIgnition empowers marketing teams to:
+
+- Forecast future campaign revenue.
+- Predict Return on Ad Spend (ROAS).
+- Compare campaign and channel performance.
+- Make informed budget allocation decisions.
+- Reduce manual analysis through AI-driven forecasting.
+- Improve marketing efficiency with predictive insights.
+
+---
+
+**Built for the NetElixir AI Hackathon 🚀**
